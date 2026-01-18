@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Reveal from "@/components/Reveal";
 import { KitchenCarousel } from "@/components/KitchenCarousel";
 import StatsSection from "@/components/StatsSection";
+import ContactStrip from "@/components/ContactStrip";
 
 
 
@@ -133,6 +134,10 @@ export default function Home() {
       <StatsSection />
 
       <KitchenCarousel />
+
+      <ContactStrip />
+
+
       
       
 
