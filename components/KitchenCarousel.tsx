@@ -5,11 +5,11 @@ import { useRef, useState } from "react";
 import Reveal from "@/components/Reveal";
 
 const kitchens = [
-  "kitchen-1.jpg",
-  "kitchen-2.jpg",
-  "kitchen-3.jpg",
-  "kitchen-4.jpg",
-  "kitchen-5.jpg",
+  "steel-5.jpg",
+  "steel-6.jpg",
+  "steel-7.jpg",
+  "steel-8.jpg",
+  "steel-9.jpg",
 ];
 
 export function KitchenCarousel() {
@@ -55,7 +55,7 @@ export function KitchenCarousel() {
               className="relative w-full h-full flex-shrink-0 snap-center"
             >
               <Image
-                src={`/images/kitchens/${img}`}
+                src={`/images/steel/${img}`}
                 alt="Luxury kitchen"
                 fill
                 className="object-cover"

@@ -11,8 +11,7 @@ export default function Footer() {
               Punjab Modular Kitchen
             </h3>
             <p className="mt-4 text-sm text-[#555] max-w-sm">
-              Thoughtfully designed modular and stainless steel kitchens for
-              modern homes across Punjab.
+              Experience the blend of hygiene, durability and sleek minimalism with our stainless steel kitchens.
             </p>
           </div>
 

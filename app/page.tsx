@@ -25,7 +25,7 @@ export default function Home() {
     className="absolute inset-0"
   >
     <Image
-      src="/images/hero/hero.jpg"
+      src="/images/hero/hero-3.jpg"
       alt="Premium modular kitchen"
       fill
       priority
@@ -42,15 +42,14 @@ export default function Home() {
     className="relative z-10 max-w-3xl text-center"
   >
     <h1 className="text-4xl md:text-6xl lg:text-7xl font-light leading-[1.1] text-[#f5f4f0]">
-      Crafted Kitchens <br />
-      for Modern Living
+            Premium Stainless <br /> Steel Kitchens 
+            
     </h1>
 
     <p className="mt-8 text-sm md:text-base font-medium tracking-wide
       text-white/90 max-w-xl mx-auto
       drop-shadow-[0_1px_2px_rgba(0,0,0,0.4)]">
-      Premium modular and stainless steel kitchens designed for
-      contemporary homes.
+      High-grade stainless steel Modular Kitchens crafted for modern living.
     </p>
 
     {/* CTA */}
@@ -71,6 +70,8 @@ export default function Home() {
     </div>
   </motion.div>
 </section>
+
+      
       {/* ================= PHILOSOPHY SECTION ================= */}
       <section className="relative py-32 px-6 md:px-16 lg:px-32 bg-[#f2f1ee]">
         <Reveal>
@@ -95,7 +96,7 @@ export default function Home() {
             {/* IMAGE BLOCK */}
             <div className="relative h-[440px] overflow-hidden">
               <Image
-                src="/images/philosophy/design.jpg"
+                src="/images/steel/steel-4.jpg"
                 alt="Kitchen craftsmanship"
                 fill
                 className="object-cover scale-105"
@@ -106,19 +107,41 @@ export default function Home() {
         </Reveal>
       </section>
 
+
+
+
+
+      <section className="py-24 px-6 md:px-16 lg:px-32 bg-[#f2f1ee]">
+  <Reveal>
+    <div className="max-w-5xl mx-auto text-center space-y-8">
+      <h2 className="text-3xl md:text-4xl font-light">
+        Why Stainless Steel?
+      </h2>
+      <p className="text-[#555] leading-relaxed">
+        Stainless steel is more than a material — it’s a performance choice.
+        Its corrosion resistance and virtually non-porous surface make
+        hygiene effortless, letting you cook with confidence and clean with ease.  
+        Integrated stainless steel components deliver professional durability
+        without sacrificing aesthetic refinement. 
+      </p>
+    </div>
+  </Reveal>
+</section>
+
+
       {/* ================= SIGNATURE KITCHENS ================= */}
       <section className="py-32 px-6 md:px-16 lg:px-32">
         <Reveal>
           <h2 className="text-3xl md:text-4xl font-light mb-14">
-            Our Kitchens
+            Stainless Steel Kitchen Showcase
           </h2>
 
           <div className="grid md:grid-cols-3 gap-12">
-            {["kitchen-1.jpg", "kitchen-2.jpg", "kitchen-3.jpg"].map(
+            {["steel-1.jpg", "steel-2.jpg", "steel-3.jpg"].map(
               (img, i) => (
                 <div key={i} className="relative h-[320px] overflow-hidden">
                   <Image
-                    src={`/images/kitchens/${img}`}
+                    src={`/images/steel/${img}`}
                     alt="Luxury kitchen design"
                     fill
                     className="object-cover"

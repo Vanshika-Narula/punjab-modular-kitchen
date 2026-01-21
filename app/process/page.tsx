@@ -19,8 +19,7 @@ export default function Process() {
             </h1>
 
             <p className="mt-8 text-[#555] leading-relaxed max-w-2xl">
-              Each stage is designed to be clear, structured,
-              and thoughtfully paced.
+              We engineer stainless steel modules with precision fabrication and seamless installation — ensuring a flawless finish and hygienic kitchen environment every time.
             </p>
           </div>
         </Reveal>
@@ -63,7 +62,7 @@ export default function Process() {
             {/* Image */}
             <div className="relative h-[320px] order-2 md:order-1">
               <Image
-                src="/images/process/step-8.jpg"
+                src="/images/process/design-1.jpg"
                 alt="Kitchen design planning"
                 fill
                 className="object-cover"
@@ -105,7 +104,7 @@ export default function Process() {
             {/* Image */}
             <div className="relative h-[320px]">
               <Image
-                src="/images/process/step-9.jpg"
+                src="/images/process/design-2.jpg"
                 alt="Kitchen craftsmanship"
                 fill
                 className="object-cover"
@@ -122,7 +121,7 @@ export default function Process() {
             {/* Image */}
             <div className="relative h-[320px] order-2 md:order-1">
               <Image
-                src="/images/process/step-5.jpg"
+                src="/images/process/design-3.jpg"
                 alt="Kitchen installation"
                 fill
                 className="object-cover"

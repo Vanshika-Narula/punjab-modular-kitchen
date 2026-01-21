@@ -11,21 +11,21 @@ export default function Kitchens() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/hero/kitchen-4.jpg"
-            alt="Luxury kitchen design"
+            src="/images/steel/steel-5.jpg"
+            alt="Stainless steel kitchen design"
             fill
             priority
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-black/25" />
+          <div className="absolute inset-0 bg-black/30" />
         </div>
 
         {/* Hero Text */}
         <Reveal>
           <div className="relative z-10 max-w-3xl text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight text-[#f5f4f0]">
-              Kitchens designed for real homes<br />
-              and real lives.
+              Stainless Steel Kitchens<br />
+              Engineered for Everyday Living
             </h1>
 
             <p
@@ -33,24 +33,43 @@ export default function Kitchens() {
               text-white/90 max-w-xl mx-auto
               drop-shadow-[0_1px_2px_rgba(0,0,0,0.4)]"
             >
-              Thoughtfully planned, carefully crafted, and built to last.
+              Hygienic. Durable. Timeless — kitchens built to perform
+              beautifully for decades.
             </p>
           </div>
         </Reveal>
       </section>
 
-      {/* ================= MODULAR KITCHENS ================= */}
+      {/* ================= WHY STAINLESS STEEL ================= */}
       <section className="pt-40 pb-32 px-6 md:px-16 lg:px-32">
         <Reveal>
-          <h2 className="text-3xl md:text-4xl font-light mb-12">
-            Modular Kitchens
+          <div className="max-w-4xl">
+            <h2 className="text-3xl md:text-4xl font-light mb-8">
+              Why Stainless Steel Kitchens?
+            </h2>
+
+            <p className="text-[#555] leading-relaxed max-w-2xl">
+              Stainless steel kitchens are designed for performance and longevity.
+              Non-porous surfaces ensure superior hygiene, while corrosion-resistant
+              construction withstands daily use, heat, and moisture — without
+              warping, swelling, or deterioration.
+            </p>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* ================= STAINLESS STEEL SHOWCASE ================= */}
+      <section className="pt-32 pb-32 px-6 md:px-16 lg:px-32 bg-[#f2f1ee]">
+        <Reveal>
+          <h2 className="text-3xl md:text-4xl font-light mb-14">
+            Stainless Steel Kitchen Designs
           </h2>
 
           <div className="grid md:grid-cols-2 gap-14">
             <div className="relative h-[420px] overflow-hidden">
               <Image
-                src="/images/kitchens/kitchen-2.jpg"
-                alt="Modular kitchen"
+                src="/images/steel/steel-1.jpg"
+                alt="Premium stainless steel kitchen"
                 fill
                 className="object-cover"
               />
@@ -58,8 +77,8 @@ export default function Kitchens() {
 
             <div className="relative h-[420px] overflow-hidden">
               <Image
-                src="/images/kitchens/kitchen-3.jpg"
-                alt="Modern modular kitchen"
+                src="/images/steel/steel-2.jpg"
+                alt="Modern stainless steel kitchen"
                 fill
                 className="object-cover"
               />
@@ -68,40 +87,29 @@ export default function Kitchens() {
         </Reveal>
       </section>
 
-      {/* ================= STAINLESS STEEL KITCHENS ================= */}
-      <section className="pt-40 pb-32 px-6 md:px-16 lg:px-32 bg-[#f2f1ee]">
+      {/* ================= MODULAR ENGINEERING (REPOSITIONED) ================= */}
+      <section className="pt-40 pb-32 px-6 md:px-16 lg:px-32">
         <Reveal>
-          <h2 className="text-3xl md:text-4xl font-light mb-12">
-            Stainless Steel Kitchens
-          </h2>
+          <div className="max-w-4xl">
+            <h2 className="text-3xl md:text-4xl font-light mb-8">
+              Modular Engineering. Seamless Execution.
+            </h2>
 
-          <div className="grid md:grid-cols-2 gap-14">
-            <div className="relative h-[420px] overflow-hidden">
-              <Image
-                src="/images/hero/kitchen-5.jpg"
-                alt="Stainless steel kitchen"
-                fill
-                className="object-cover"
-              />
-            </div>
-
-            <div className="relative h-[420px] overflow-hidden">
-              <Image
-                src="/images/hero/kitchen-6.jpg"
-                alt="Premium steel kitchen"
-                fill
-                className="object-cover"
-              />
-            </div>
+            <p className="text-[#555] leading-relaxed max-w-2xl">
+              Every stainless steel kitchen is engineered using modular principles —
+              ensuring precision fabrication, faster installation, and effortless
+              maintenance. The result is a clean, structured system that integrates
+              storage, workflow, and durability without visual clutter.
+            </p>
           </div>
         </Reveal>
       </section>
 
       {/* ================= QUIET CTA ================= */}
-      <section className="py-32 px-6 md:px-16 lg:px-32 text-center">
+      <section className="py-32 px-6 md:px-16 lg:px-32 text-center bg-[#f2f1ee]">
         <Reveal>
           <h3 className="text-3xl md:text-4xl font-light mb-6">
-            Every kitchen begins with a conversation.
+            A better kitchen begins with better material.
           </h3>
 
           <a
