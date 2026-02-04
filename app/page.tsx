@@ -6,6 +6,9 @@ import Reveal from "@/components/Reveal";
 import { KitchenCarousel } from "@/components/KitchenCarousel";
 import StatsSection from "@/components/StatsSection";
 import ContactStrip from "@/components/ContactStrip";
+import StainlessComparison from "@/components/StainlessComparison";
+import SteelQuote from "@/components/SteelQuote";
+import CustomerJourney from "@/components/CustomerJourney";
 
 
 
@@ -154,16 +157,12 @@ export default function Home() {
       </section>
 
       
+      <SteelQuote />
+      <CustomerJourney />
+      <StainlessComparison />
       <StatsSection />
-
       <KitchenCarousel />
-
       <ContactStrip />
-
-
-      
-      
-
       
     </main>
   );

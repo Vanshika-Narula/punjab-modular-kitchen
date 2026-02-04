@@ -44,8 +44,8 @@ export default function Navbar() {
             <Image
               src="/images/logo/pmk-logo.png" // your PNG with name included
               alt="Punjab Modular Kitchen"
-              width={160}
-              height={48}
+              width={200}
+              height={55}
               priority
               className="object-contain"
             />
@@ -59,9 +59,10 @@ export default function Navbar() {
             <Link href="/process" className="hover:text-black">
               Process
             </Link>
-            {/* <Link href="/materials" className="hover:text-black">
-              Materials
-            </Link> */}
+            <Link href="/blog" className="hover:text-black">
+              Blogs
+            </Link>
+
             <Link href="/about" className="hover:text-black">
               About
             </Link>

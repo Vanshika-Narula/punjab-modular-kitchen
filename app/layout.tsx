@@ -2,6 +2,14 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+// import { Dancing_Script } from "next/font/google";
+
+// export const dancing = Dancing_Script({
+//   subsets: ["latin"],
+//   weight: ["400", "500"],
+// });
+
+
 export const metadata = {
   title: "Punjab Modular Kitchen",
   description: "Premium modular kitchens designed for modern Punjab homes.",
